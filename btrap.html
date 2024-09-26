@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold" href="#"><img src="./images/logo/logo.png" alt="Logo"
+                        style="height: 80px;"> Pet Shop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto fw-bold ">
+                        <li class="nav-item "><a class="nav-link" href="#">Trang chủ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sản phẩm</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Giao hàng & Thanh toán</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
+                        <li class="nav-item ms-2 d-none d-lg-block"><a class="nav-link" href="#"><i
+                                    class="bi bi-geo-alt text-warning shadow"></i> Vị trí</a></li>
+                        <li class="nav-item d-none d-lg-block"><a class="nav-link" href="#"><i
+                                    class="bi bi-telephone me-2 shadow text-warning"></i>012 345 6789</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-section py-5">
+            <div class="container">
+                <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <h1>Siêu thị thú cưng từ nhà sản xuất cho thú cưng</h1>
+                                    <p class="lead">Chuỗi cửa hàng bán sản phẩm cho thú cưng với dịch vụ giao hàng trên
+                                        toàn quốc.</p>
+                                    <a href="#" class="btn btn-warning btn-lg">Xem danh mục</a>
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                    <div class="promo-banner ">
+                                        <img src="./images/slides/slide1.jpg" alt="Slide 1" class="img-fluid">
+                                        <div class="promo-text">
+                                            <h2>Giảm giá 20% cho đơn hàng đầu tiên</h2>
+                                            <p>Chỉ dành cho khách hàng mới, đừng bỏ lỡ cơ hội!</p>
+                                            <a href="#" class="btn btn-light">Tìm hiểu thêm</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <h1>Chăm sóc thú cưng với tình yêu thương</h1>
+                                    <p class="lead">Chỉ các thương hiệu tốt nhất, được kiểm chứng bởi thời gian và khách
+                                        hàng.</p>
+                                    <a href="#" class="btn btn-warning btn-lg">Xem các thương hiệu</a>
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                    <div class="promo-banner">
+                                        <img src="./images/slides/slide1.jpg" alt="Slide 2" class="img-fluid">
+                                        <div class="promo-text">
+                                            <h2>Quà tặng khi mua từ 500.000 ₫</h2>
+                                            <p>Khuyến mãi có hiệu lực đến cuối tháng, hãy nhanh tay!</p>
+                                            <a href="#" class="btn btn-light">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6">
+                                    <h1>Sản phẩm tốt nhất cho thú cưng</h1>
+                                    <p class="lead">Danh mục sản phẩm đa dạng cho tất cả các loại thú cưng.</p>
+                                    <a href="#" class="btn btn-warning btn-lg">Khám phá ngay</a>
+                                </div>
+                                <div class="col-lg-6 text-center">
+                                    <div class="promo-banner">
+                                        <img src="./images/slides/slide1.jpg" alt="Slide 3" class="img-fluid">
+                                        <div class="promo-text">
+                                            <h2>Giảm giá 25% cho thức ăn ProPlan cho chó</h2>
+                                            <p>Khi mua thức ăn ProPlan từ 500.000 ₫, bạn sẽ nhận được khuyến mãi giảm
+                                                giá!
+                                            </p>
+                                            <a href="#" class="btn btn-light">Chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden ">Trước</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden ">Sau</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="features-section py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-3 col-md-6 col-sm-12 shadow mb-4">
+                        <i class="bi bi-truck display-4 text-warning"></i>
+                        <h4>Giao hàng miễn phí</h4>
+                        <p>Tại Hà Nội và khu vực lân cận cho đơn hàng từ 300.000 ₫</p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 shadow mb-4 mx-lg-5">
+                        <i class="bi bi-gift display-4 text-warning"></i>
+                        <h4>Hệ thống tích điểm</h4>
+                        <p>Nhận điểm thưởng khi mua hàng và sử dụng cho các đơn hàng tiếp theo</p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 shadow mb-4">
+                        <i class="bi bi-tags display-4 text-warning"></i>
+                        <h4>Khuyến mãi & giảm giá</h4>
+                        <p>Khuyến mãi theo bộ sản phẩm, giảm giá cho khách hàng mua sỉ</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="new-products py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Sản phẩm mới</h2>
+                <div id="productCarousel" class="carousel slide">
+                    <div class="arrow-container">
+                        <button class="arrow-left" data-bs-target="#productCarousel" data-bs-slide="prev">&lt;</button>
+                        <button class="arrow-right" data-bs-target="#productCarousel" data-bs-slide="next">&gt;</button>
+                    </div>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col-md-3 mb-4">
+                                    <div class="product-card p-3 text-center">
+                                        <img src="./images/product/product1.jpg" alt="Sản phẩm 1" class="rounded mb-3">
+                                        <h5 class="product-name">Thức ăn khô cho mèo Winner</h5>
+                                        <p class="product-description">Thức ăn khô dành cho tất cả các giống mèo</p>
+                                        <div class="d-flex justify-content-center align-items-center mb-3">
+                                            <button class="btn btn-light btn-sm px-2 decrease-qty">-</button>
+                                            <input type="text" value="1"
+                                                class="form-control text-center mx-2 quantity-input"
+                                                style="width: 50px;" min="1">
+                                            <button class="btn btn-light btn-sm px-2 increase-qty">+</button>
+                                        </div>
+                                        <p class="product-price text-danger">500.000 ₫</p>
+                                        <a href="#" class="btn btn-warning">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="product-card p-3 text-center">
+                                        <img src="./images/product/product2.jpg" alt="Sản phẩm 2" class="rounded mb-3">
+                                        <h5 class="product-name">Thức ăn khô cho mèo Royal Canin</h5>
+                                        <p class="product-description">Thức ăn khô dành cho mèo trưởng thành</p>
+                                        <div class="d-flex justify-content-center align-items-center mb-3">
+                                            <button class="btn btn-light btn-sm px-2 decrease-qty">-</button>
+                                            <input type="text" value="1"
+                                                class="form-control text-center mx-2 quantity-input"
+                                                style="width: 50px;" min="1">
+                                            <button class="btn btn-light btn-sm px-2 increase-qty">+</button>
+                                        </div>
+                                        <p class="product-price text-danger">500.000 ₫</p>
+                                        <a href="#" class="btn btn-warning">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="product-card p-3 text-center">
+                                        <img src="./images/product/product1.jpg" alt="Sản phẩm 1" class="rounded mb-3">
+                                        <h5 class="product-name">Thức ăn khô cho mèo Winner</h5>
+                                        <p class="product-description">Thức ăn khô dành cho tất cả các giống mèo</p>
+                                        <div class="d-flex justify-content-center align-items-center mb-3">
+                                            <button class="btn btn-light btn-sm px-2 decrease-qty">-</button>
+                                            <input type="text" value="1"
+                                                class="form-control text-center mx-2 quantity-input"
+                                                style="width: 50px;" min="1">
+                                            <button class="btn btn-light btn-sm px-2 increase-qty">+</button>
+                                        </div>
+                                        <p class="product-price text-danger">500.000 ₫</p>
+                                        <a href="#" class="btn btn-warning">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="product-card p-3 text-center">
+                                        <img src="./images/product/product2.jpg" alt="Sản phẩm 2" class="rounded mb-3">
+                                        <h5 class="product-name">Thức ăn khô cho mèo Royal Canin</h5>
+                                        <p class="product-description">Thức ăn khô dành cho mèo trưởng thành</p>
+                                        <div class="d-flex justify-content-center align-items-center mb-3">
+                                            <button class="btn btn-light btn-sm px-2 decrease-qty">-</button>
+                                            <input type="text" value="1"
+                                                class="form-control text-center mx-2 quantity-input"
+                                                style="width: 50px;" min="1">
+                                            <button class="btn btn-light btn-sm px-2 increase-qty">+</button>
+                                        </div>
+                                        <p class="product-price text-danger">500.000 ₫</p>
+                                        <a href="#" class="btn btn-warning">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col-md-3 mb-4">
+                                    <div class="product-card p-3 text-center">
+                                        <img src="./images/product/product1.jpg" alt="Sản phẩm 1" class="rounded mb-3">
+                                        <h5 class="product-name">Thức ăn khô cho mèo Winner</h5>
+                                        <p class="product-description">Thức ăn khô dành cho tất cả các giống mèo</p>
+                                        <div class="d-flex justify-content-center align-items-center mb-3">
+                                            <button class="btn btn-light btn-sm px-2 decrease-qty">-</button>
+                                            <input type="text" value="1"
+                                                class="form-control text-center mx-2 quantity-input"
+                                                style="width: 50px;" min="1">
+                                            <button class="btn btn-light btn-sm px-2 increase-qty">+</button>
+                                        </div>
+                                        <p class="product-price text-danger">500.000 ₫</p>
+                                        <a href="#" class="btn btn-warning">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="product-card p-3 text-center">
+                                        <img src="./images/product/product1.jpg" alt="Sản phẩm 2" class="rounded mb-3">
+                                        <h5 class="product-name">Thức ăn khô cho mèo Royal Canin</h5>
+                                        <p class="product-description">Thức ăn khô dành cho mèo trưởng thành</p>
+                                        <div class="d-flex justify-content-center align-items-center mb-3">
+                                            <button class="btn btn-light btn-sm px-2 decrease-qty">-</button>
+                                            <input type="text" value="1"
+                                                class="form-control text-center mx-2 quantity-input"
+                                                style="width: 50px;" min="1">
+                                            <button class="btn btn-light btn-sm px-2 increase-qty">+</button>
+                                        </div>
+                                        <p class="product-price text-danger">500.000 ₫</p>
+                                        <a href="#" class="btn btn-warning">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="product-card p-3 text-center">
+                                        <img src="./images/product/product1.jpg" alt="Sản phẩm 1" class="rounded mb-3">
+                                        <h5 class="product-name">Thức ăn khô cho mèo Winner</h5>
+                                        <p class="product-description">Thức ăn khô dành cho tất cả các giống mèo</p>
+                                        <div class="d-flex justify-content-center align-items-center mb-3">
+                                            <button class="btn btn-light btn-sm px-2 decrease-qty">-</button>
+                                            <input type="text" value="1"
+                                                class="form-control text-center mx-2 quantity-input"
+                                                style="width: 50px;" min="1">
+                                            <button class="btn btn-light btn-sm px-2 increase-qty">+</button>
+                                        </div>
+                                        <p class="product-price text-danger">500.000 ₫</p>
+                                        <a href="#" class="btn btn-warning">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 mb-4">
+                                    <div class="product-card p-3 text-center">
+                                        <img src="./images/product/product1.jpg" alt="Sản phẩm 2" class="rounded mb-3">
+                                        <h5 class="product-name">Thức ăn khô cho mèo Royal Canin</h5>
+                                        <p class="product-description">Thức ăn khô dành cho mèo trưởng thành</p>
+                                        <div class="d-flex justify-content-center align-items-center mb-3">
+                                            <button class="btn btn-light btn-sm px-2 decrease-qty">-</button>
+                                            <input type="text" value="1"
+                                                class="form-control text-center mx-2 quantity-input"
+                                                style="width: 50px;" min="1">
+                                            <button class="btn btn-light btn-sm px-2 increase-qty">+</button>
+                                        </div>
+                                        <p class="product-price text-danger">500.000 ₫</p>
+                                        <a href="#" class="btn btn-warning">Thêm vào giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container py-5">
+            <h2 class="mb-4 text-center">Tất cả những gì bạn cần</h2>
+            <div class="row g-3">
+                <div class="col-md-4">
+                    <div class="category-card-1 p-4 shadow mb-4">
+                        <h5 class="card-title mt-3">Thức ăn cao cấp</h5>
+                        <p class="card-text">Nhiều dinh dưỡng, bổ sung các vitamin thiết yếu.</p>
+                        <a href="#" class="btn btn-light mt-5 w-100">
+                            Đi đến danh mục
+                            <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </div>
+                    <div class="category-card-2 p-4 shadow">
+                        <h5 class="card-title mt-3">Thức ăn giàu protein</h5>
+                        <p class="card-text">Thú cưng sẽ phát triển khỏe mạnh và năng động.</p>
+                        <a href="#" class="btn btn-light mt-5 w-100">
+                            Đi đến danh mục
+                            <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="category-card-2 p-4 shadow mb-4">
+                        <h5 class="card-title mt-3">Đồ chơi thú cưng</h5>
+                        <p class="card-text">Đồ chơi hấp dẫn cho chó và mèo, giúp tăng cường sự vận động.</p>
+                        <a href="#" class="btn btn-light mt-5 w-100">
+                            Đi đến danh mục
+                            <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </div>
+                    <div class="category-card-1 p-4 shadow">
+                        <h5 class="card-title mt-3">Phụ kiện thú cưng</h5>
+                        <p class="card-text">Các loại phụ kiện cần thiết cho thú cưng của bạn.</p>
+                        <a href="#" class="btn btn-light mt-5 w-100">
+                            Đi đến danh mục
+                            <i class="bi bi-chevron-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="contact-form shadow p-4">
+                        <h3>Liên hệ với chúng tôi</h3>
+                        <form class="mt-4">
+                            <div class="mb-3">
+                                <input class="form-control border-warning" type="text" id="name" required
+                                    placeholder="Tên của bạn">
+                            </div>
+                            <div class="mb-3">
+                                <input class="form-control border-warning" type="email" id="email" required
+                                    placeholder="Email của bạn">
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control border-warning" id="message" rows="3" required
+                                    placeholder="Câu hỏi"></textarea>
+                            </div>
+                            <button type="submit" class="btn bg-warning text-white w-100">Gửi</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="brands py-5 ">
+            <h2 class="text-center mb-4">Các thương hiệu</h2>
+            <div class="row text-center">
+                <div class="col-6 col-md-3 mb-3">
+                    <img src="/images/brands/brand1.webp" alt="lapaw" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="/images/brands/brand2.webp" alt="me-o" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="/images/brands/brand3.webp" alt="equilibrio" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="/images/brands/brand4.webp" alt="kitcat" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="/images/brands/brand5.webp" alt="monge" class="img-fluid">
+                </div>
+
+                <div class="col-6 col-md-3 mb-3">
+                    <img src="/images/brands/brand6.webp" alt="nekko" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="/images/brands/brand7.webp" alt="royancanin" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="/images/brands/brand8.webp" alt="anf" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="/images/brands/brand9.webp" alt="gimcat" class="img-fluid">
+                </div>
+                <div class="col-6 col-md-2 mb-3">
+                    <img src="/images/brands/brand10.webp" alt="hiraw" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <footer>
+        <hr>
+        <div class="container mt-5">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <h6>Đăng ký nhận bản tin và là người đầu tiên biết về giảm giá!</h6>
+                    <form>
+                        <div class="mb-3">
+                            <input class="form-control border-warning" type="email" placeholder="Email của bạn"
+                                id="email_footer">
+                        </div>
+                        <button type="submit" class="btn text-white btn-warning btn-lg w-30">Đăng ký</button>
+                    </form>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center text-md-start">
+                    <h6>Danh mục sản phẩm</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-black">Thức ăn cao cấp</a></li>
+                        <li><a href="#" class="text-decoration-none text-black">Đồ chơi thú cưng</a></li>
+                        <li><a href="#" class="text-decoration-none text-black">Thức ăn giàu protein</a></li>
+                        <li><a href="#" class="text-decoration-none text-black">Phụ kiện thú cưng</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-center text-md-start">
+                    <h6>Menu</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-black">Trang chủ</a></li>
+                        <li><a href="#" class="text-decoration-none text-black">Sản phẩm</a></li>
+                        <li><a href="#" class="text-decoration-none text-black">Giao hàng & Thanh toán</a></li>
+                        <li><a href="#" class="text-decoration-none text-black">Liên hệ</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 text-end text-md-end text-center">
+                    <a class="text-decoration-none fw-bold d-md-inline-block d-none mb-2" href="#">
+                        <img src="./images/logo/logo.png" alt="Logo" style="height: 80px;"> Pet Shop
+                    </a>
+                    <h6 class="mt-3">0123456789</h6>
+                    <p>Email: info@petshop.com</p>
+                    <p>Địa chỉ: 123 Đường ABC, TP.HCM</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"> </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
